@@ -1,0 +1,17 @@
+#======================================================================
+
+QT += core xml widgets gui
+
+CONFIG += qt
+TEMPLATE = app
+
+PROJNAME = KITTI_Dataset_Convert
+
+# SDK, APP, MOD
+INSTALLTYPE = APP
+
+unix:INCLUDEPATH += /usr/include/eigen3
+
+#======================================================================
+
+include(RobotSDK.pri)
